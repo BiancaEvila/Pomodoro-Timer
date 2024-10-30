@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pomodoro</title>
+</head>
+<body>
+    <main>
+        <section class="main">
+            <section class="container" id="containerTotal">
+                <section class="container" id="containerVisor">
+                    <h1>Temporizador</h1>
+                    <div id="contador">
+                        <p>25:00</p>
+                    </div>
+                    <div  id="botoes">
+                        <button class="botao">Iniciar</button>
+                        <button class="botao">Restaurar</button>
+                    </div>
+                </section>
+                <section id="containerMudanca">
+                    <section class="containerMenor">
+                        <div class="time-controls">
+                            <button class="decrement">-</button>
+                            <span id="break-length">5</span>
+                            <button class="increment">+</button>
+                        </div>
+                        <h3>Intervalo</h3>
+                    </section>
+                    <section class="containerMenor">
+                        <div class="time-controls">
+                            <button class="decrement">-</button>
+                            <span id="session-length">25</span>
+                            <button class="increment">+</button>
+                        </div>
+                        <h3>Sessão</h3>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
